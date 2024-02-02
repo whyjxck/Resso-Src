@@ -1,24 +1,24 @@
 require("dotenv").config();
 
 module.exports = {
-    token: process.env.TOKEN || "MTAyMzU3MTc0NzEzMzQ2ODcwMw.Gjmkwu.juk-Rsie9iZcyezVUgZYb_ap7UFLi4Jkp41xX4", //your bot token
-    clientID: process.env.CLIENT_ID || "1023571747133468703", // your bot client id
-    prefix: process.env.PREFIX || "+", // bot prefix
-    ownerID: process.env.OWNERID || "261553832549548032", //your discord id
-    mongourl: process.env.MONGO_URI || "mongodb+srv://Resso:742781@cluster0.tnvbkfy.mongodb.net/?retryWrites=true&w=majority", // MongoDb URL
+    token: process.env.TOKEN || "MTExMjU4MjUxNzY2NTU2NjgzMQ.G9uy7C.ufDV-MO4DxIW0o22IBdPdchmWg0FG7vMYy3MgM", //your bot token
+    clientID: process.env.CLIENT_ID || "1112582517665566831", // your bot client id
+    prefix: process.env.PREFIX || "-", // bot prefix
+    ownerID: process.env.OWNERID || "995889800500498532", //your discord id
+    mongourl: process.env.MONGO_URI || "mongodb+srv://FreakOnTop:FreakOnTop@cluster0.2l5pd9b.mongodb.net/?retryWrites=true&w=majority", // MongoDb URL
  // devID: process.env.DEV || "",
     embedColor: process.env.COlOR || ("FF0000"), // embed colour
     logs: process.env.LOGS || "1086356602854047884", // channel id for guild create and delete logs
 
   webhook: {
     Cmd: {
-      url: 'https://discord.com/api/webhooks/1103172463002665042/ab-Ni3HqRnpDbTbiGu2je4j_9tvIBkdYMFjKTW9J2l96RLRXKli_vJbWdj9WabgMZlGU',
+      url: 'https://discord.com/api/webhooks/1192496129569476619/OcVyBlPqPDST4wzDGmqfNNvbGS9JvNqNQKfuyCKJa8G0z7JFnxz9N3hNc-zcDSBGqWuk',
     },
     Errors: {
-      url: 'https://discord.com/api/webhooks/1103172457256472648/5D-m76nlOekPB9v6yQfqFZ61dP9cRut3LX4-Jp5gYsRf1_IJUytCTkvKNjmMQRHUENLC',
+      url: 'https://discord.com/api/webhooks/1192496129569476619/OcVyBlPqPDST4wzDGmqfNNvbGS9JvNqNQKfuyCKJa8G0z7JFnxz9N3hNc-zcDSBGqWuk',
     },
     Loggin: {
-      url: 'https://discord.com/api/webhooks/1103174774236139613/AuLLA4zgjTw_EINtd0x_eLJwU07YQro4dbusuqo15TtljzaPn20oJ6Q9Eb_60Kgsfbam',
+      url: 'https://discord.com/api/webhooks/1192496129569476619/OcVyBlPqPDST4wzDGmqfNNvbGS9JvNqNQKfuyCKJa8G0z7JFnxz9N3hNc-zcDSBGqWuk',
     },
   },
   
